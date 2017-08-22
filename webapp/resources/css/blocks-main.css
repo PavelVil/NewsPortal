@@ -1,0 +1,108 @@
+ .team{
+     background:url(http://bootstraptema.ru/snippets/block/2016/red-hover-mouse/b.jpg)0px 0px;
+     width:100%;
+     min-height:894px;
+     display:block;
+     padding: 6em 0;
+ }
+.team h3{
+    font-size: 3.3em;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team h3 span{
+    font-weight: 700;
+    color:#EC0002;
+}
+.team-grid {
+    padding: 3em 0 0;
+    min-height: 437px;
+}
+.team-grid-left h4{
+    font-size: 1.4em;
+    color: #fff;
+    padding: 0.5em 0;
+    margin: 0;
+    font-weight: 600;
+}
+.team-grid-left p{
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0 0 0.5em;
+    margin: 0;
+}
+.team-grid-left span.arrow{
+    background: url(http://bootstraptema.ru/snippets/block/2016/red-hover-mouse/a.png) no-repeat;
+    width: 20px;
+    height: 8px;
+    display:block;
+    position: absolute;
+    top: 1em;
+    left: 8em;
+}
+.arrow-para:hover ul.social{
+    display: block;
+}
+.arrow-para:hover .in-arrow{
+    display: none;
+}
+.in-arrow {
+    position: relative;
+}
+label.line-in{
+    border-bottom: 8px solid #EC0002;
+    width: 255px;
+    height: 7px;
+    margin: 0;
+}
+ul.social{
+    padding: 0 0 0.6em;
+    margin: 0 ;
+    border-bottom: 8px solid #fff;
+    text-align: center;
+    display:none;
+}
+ul.social li,ul.social-ic-icons li{
+    display: inline-block;
+}
+ul.social li a span{
+    background: url(http://bootstraptema.ru/snippets/block/2016/red-hover-mouse/social.png) 0px -66px;
+    width: 30px;
+    height: 35px;
+    display: block;
+}
+ul.social li a span,ul.social-ic-icons li a span{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+ul.social li.twitter a span{
+    background-position: -29px 5px;
+}
+ul.social li.inline a span{
+    background-position: -66px -66px;
+}
+ul.social li.gmail a span{
+    background-position: -96px -62px;
+}
+ul.social li.facebook a span:hover{
+    background-position: 0px 5px;
+}
+ul.social li.inline a span:hover{
+    background-position: -66px 5px;
+}
+ul.social li.gmail a span:hover{
+    background-position: -96px 5px;
+}
+.team h4{
+    font-size: 2em;
+    color: #fff;
+    padding: 0.5em 0;
+    margin: 0;
+    font-weight: 300;
+}
